@@ -1,0 +1,14 @@
+
+<image class="second-background" src="../../images/firstbackground.png"></image>
+
+<view class="background-Lbase" bindtap="Call_Lbase"></view>
+<view class="Lbase-word" bindtap="Call_Lbase">Linux基础</view>
+
+<view class="background-Server" bindtap="Call_Server"></view>
+<view class="Server-word" bindtap="Call_Server">高性能服务器编程</view>
+
+<view class="background-Web" bindtap="Call_Web"></view>
+<view class="Web-word" bindtap="Call_Web">网络编程</view>
+
+<image class="Line-1" src="../../images/line1.png"></image>
+<image class="Line-2" src="../../images/line1.png"></image>

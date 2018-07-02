@@ -1,0 +1,45 @@
+@import "/pages/contentC/contentC.wxss";
+
+.Line-word{
+  top:10%;
+  left:38%;
+  color:#FFF;
+  font-size: 30px;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.Stack-word{
+  top:35%;
+  left:35%;
+  color:#FFF;
+  font-size:30px;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.Sort-word{
+  top:60%;
+  left:42%;
+  color:#FFF;
+  font-size: 30px;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.Tree-word{
+  top:85%;
+  left:46%;
+  color:#FFF;
+  font-size: 30px;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+}

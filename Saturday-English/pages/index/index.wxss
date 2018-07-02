@@ -1,0 +1,95 @@
+@import "../../lib/weui.wxss";
+
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: #fff;  
+}  
+
+.button-text{
+  line-height: 100rpx;  
+  text-align: center; 
+  letter-spacing: 30rpx;
+}
+
+.hover-item{
+    background-color: #257bb8;
+    width:210rpx;
+    margin:18rpx;
+    color: #FFFFFF;
+    font-size: 30rpx;
+    border-radius: 8rpx;
+    border:1rpx solid #d1e4fd;
+}
+
+.btn-cet4{ 
+    width: 50%;
+    background-color: #e9e45e;
+    top:30%;
+    text-align: center;
+    border-radius: 40rpx;
+    border:4rpx solid #FFF;
+    line-height: 250%;
+} 
+
+.btn-cet6{ 
+    width: 50%;
+    background-color: #1bc98e;
+    top:50%;
+    text-align: center;
+    border-radius: 40rpx;
+    border:4rpx solid #FFF;
+    line-height: 250%;
+} 
+
+.list-image{
+  top:20%;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list-image1{
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list-image-up{
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list-image-down{
+  top:50%;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page-section{
+  padding-top:80rpx;
+}
+
+.caution{
+  margin-top: .77em;
+  margin-bottom: .3em;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #fff;
+  font-size: 15px;
+}
+
+button::after{
+border: none;
+}
+
+.Code-title {
+  margin-top: .77em;
+  margin-bottom: 1%;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #FFFEF8;
+  font-size: 25px;
+}

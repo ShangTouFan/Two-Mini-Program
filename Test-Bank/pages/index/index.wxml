@@ -1,0 +1,23 @@
+<image class="first-background" src="../../images/firstbackground.png"></image>
+
+<view class="background-C" bindtap="Call_C"></view>
+<image src="../../images/gold.png" class="list-view-C-gold" bindtap="Call_C"></image>
+<view class="list-view-C-word" bindtap="Call_C">C语言</view>
+
+<view class="background-Struct" bindtap="Call_struct"></view>
+<image src="../../images/struct.png" class="list-view-Struct-struct" bindtap="Call_struct"></image>
+<view class="list-view-Struct-word" bindtap="Call_struct">数据结构</view>
+
+<view class="background-Linux" bindtap="Call_Linux"></view>
+<image src="../../images/linux.png" class="list-view-Linux-linux" bindtap="Call_Linux"></image>
+<view class="list-view-Linux-word" bindtap="Call_Linux">Linux</view>
+
+<image src="../../images/about.png" class="list-image-about" bindtap="Call_about"></image>
+<view class="mask" wx:if="{{show}}"></view>
+<button wx:if="{{show}}" bindtap="exit" class="exit-button">关闭</button>
+<text class="developer" wx:if="{{show}}">开发者:\n\n金凡杰、贺宏宏、任永安\n\n\n版本号:\n\n1.3.0</text>
+
+<image class="Line-1" src="../../images/line.png"></image>
+<image class="Line-2" src="../../images/line.png"></image>
+
+<image class="index-football" src="../../images/index.png"></image>

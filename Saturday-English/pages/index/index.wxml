@@ -1,0 +1,15 @@
+
+<view class="page-body">
+
+<image src="../../images/blackboard.png" class="list-image" style="width: 100%; height: 60%;opacity:1"></image>
+</view>
+
+<view class="page-body">
+<image src="../../images/blackboard3.png" class="list-image1" style="width: 100%; height: 100%;opacity:0.5"></image>
+</view>
+
+<button class="btn-cet4" bindtap="Call_CET4">CET-4</button>
+<button class="btn-cet6" bindtap="Call_CET6">CET-6</button>
+
+
+

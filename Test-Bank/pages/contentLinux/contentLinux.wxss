@@ -1,0 +1,80 @@
+.second-background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.background-Lbase{
+    width: 100%;
+    height: 33%;
+    position: fixed;
+}
+
+.background-Server{
+    width: 100%;
+    height: 34%;
+    top:33%;
+    position: fixed;
+}
+
+.background-Web{
+    width: 100%;
+    height: 33%;
+    top:67%;
+    position: fixed;
+}
+
+.Lbase-word{
+  top:14%;
+  left:31%;
+  color:#FFF;
+  font-size: 30px;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.Server-word{
+  top:46%;
+  left:19%;
+  color:#FFF;
+  font-size: 30px;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.Web-word{
+  top:79%;
+  left:34%;
+  color:#FFF;
+  font-size: 30px;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.list-image{
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Line-1{
+    width: 90%;
+    height: 2%;
+    left:5%;
+    top:31%;
+    position: fixed;
+}
+
+.Line-2{
+    width: 90%;
+    height: 2%;
+    left:5%;
+    top:65%;
+    position: fixed;
+}

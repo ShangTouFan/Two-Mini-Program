@@ -1,0 +1,20 @@
+<!--pages/contentC/contentC.wxml-->
+<image class="second-background" src="../../images/firstbackground.png"></image>
+
+<view class="background-Base" bindtap="Call_Base"></view>
+<view class="Base-word" bindtap="Call_Base">C基础和运算符</view>
+
+<view class="background-Loop" bindtap="Call_Loop"></view>
+<view class="Loop-word" bindtap="Call_Loop">分支和循环</view>
+
+
+<view class="background-Array" bindtap="Call_Array"></view>
+<view class="Array-word" bindtap="Call_Array">数组和指针</view>
+
+<view class="background-Fun" bindtap="Call_Fun"></view>
+<view class="Fun-word" bindtap="Call_Fun">结构体和函数</view>
+
+
+<image class="line-1" src="../../images/line1.png"></image>
+<image class="line-2" src="../../images/line1.png"></image>
+<image class="line-3" src="../../images/line1.png"></image>

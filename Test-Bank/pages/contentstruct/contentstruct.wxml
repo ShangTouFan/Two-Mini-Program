@@ -1,0 +1,19 @@
+<image class="second-background" src="../../images/firstbackground.png"></image>
+
+<view class="background-Base" bindtap="Call_Line"></view>
+<view class="Line-word" bindtap="Call_Line">线性表</view>
+
+<view class="background-Loop" bindtap="Call_Stack"></view>
+<view class="Stack-word" bindtap="Call_Stack">栈和队列</view>
+
+
+<view class="background-Array" bindtap="Call_Sort"></view>
+<view class="Sort-word" bindtap="Call_Sort">排序</view>
+
+<view class="background-Fun" bindtap="Call_Tree"></view>
+<view class="Tree-word" bindtap="Call_Tree">树</view>
+
+
+<image class="line-1" src="../../images/line1.png"></image>
+<image class="line-2" src="../../images/line1.png"></image>
+<image class="line-3" src="../../images/line1.png"></image>

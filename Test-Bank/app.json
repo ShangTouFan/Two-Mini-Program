@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/degree/degree",
+    "pages/contentC/contentC",
+    "pages/contentLinux/contentLinux",
+    "pages/contentstruct/contentstruct",
+    "pages/CBaseEasy/CBaseEasy",
+    "pages/CLoopEasy/CLoopEasy",
+    "pages/CFunEasy/CFunEasy",
+    "pages/CArrayEasy/CArrayEasy",
+    "pages/CBaseHard/CBaseHard",
+    "pages/StructLineEasy/StructLineEasy",
+    "pages/StructLineHard/StructLineHard",
+    "pages/CLoopHard/CLoopHard",
+    "pages/StackAndQueueEasy/StackAndQueueEasy",
+    "pages/StackAndQueueHard/StackAndQueueHard",
+    "pages/CArrayHard/CArrayHard",
+    "pages/CFunHard/CFunHard",
+    "pages/SortEasy/SortEasy",
+    "pages/SortHard/SortHard",
+    "pages/TreeEasy/TreeEasy",
+    "pages/TreeHard/TreeHard"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  }
+}

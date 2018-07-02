@@ -1,0 +1,162 @@
+.second-background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.background-Base{
+    width: 100%;
+    height: 25%;
+    position: fixed;
+}
+
+.background-Loop{
+    width: 100%;
+    height: 25%;
+    top:25%;
+    position: fixed;
+}
+
+.background-Array{
+    width: 100%;
+    height: 25%;
+    top:50%;
+    position: fixed;
+}
+
+.background-Fun{
+    width: 100%;
+    height: 25%;
+    top:75%;
+    position: fixed;
+}
+
+.Base-word{
+  top:10%;
+  left:23%;
+  color:#FFF;
+  font-size: 30px;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.Loop-word{
+  top:35%;
+  left:30%;
+  color:#FFF;
+  font-size:30px;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.Array-word{
+  top:60%;
+  left:30%;
+  color:#FFF;
+  font-size: 30px;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.Fun-word{
+  top:85%;
+  left:26%;
+  color:#FFF;
+  font-size: 30px;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.line-1{
+    width: 90%;
+    height: 2%;
+    left:5%;
+    top:25%;
+    position: fixed;
+}
+
+.line-2{
+    width: 90%;
+    height: 2%;
+    left:5%;
+    top:50%;
+    position: fixed;
+}
+
+.line-3{
+    width: 90%;
+    height:2%;
+    left:5%;
+    top:75%;
+    position: fixed;
+}
+
+.list-image{
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button1{   
+  position:absolute;
+  width: 60%;  
+  font-size: 20px;  
+  text-align: center;
+  border-radius: 40rpx;
+  line-height: 200%;
+  left:20%;
+  top:25%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border:2rpx solid #FFF;
+  color:#FFF;
+}  
+
+.button2{   
+  position:absolute;
+  width: 60%;  
+  font-size: 20px;  
+  background-color:rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 40rpx;
+  border:2rpx solid #FFF;
+  line-height: 200%;
+  left:20%;
+  top:40%;
+  color:#FFF;
+}  
+
+.button3{   
+  position:absolute;
+  width: 60%;  
+  font-size: 20px;  
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 40rpx;
+  border:2rpx solid #FFF;
+  line-height: 200%;
+  left:20%;
+  top:55%;
+  color:#FFF;
+}  
+
+.button4{   
+  position:absolute;
+  width: 60%;  
+  font-size: 20px;  
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 40rpx;
+  border:2rpx solid #FFF;
+  line-height: 200%;
+  left:20%;
+  top:70%;
+  color:#FFF;
+}  

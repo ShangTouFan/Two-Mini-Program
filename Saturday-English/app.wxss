@@ -1,0 +1,53 @@
+.container{
+    background-color: #f2f2f2;
+    height: 100vh;
+}
+.title{
+    background-color: #f2f2f2;
+    padding: 30rpx 0 30rpx 50rpx;
+    font-size: 28rpx;
+    color: #000;
+}
+.tapbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    padding: 40rpx;
+}
+.btn-charge{
+    width: 40%;
+    background-color: #FFFEF8;
+    margin: 200rpx auto 30rpx;
+    text-align: center;
+    border-radius: 40rpx;
+    border:5rpx solid #ddd;
+    line-height: 70rpx;
+}
+
+.container_demo{
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content:center;
+  align-items: center ;
+}
+
+.screen-title{
+    padding: 10rpx 0 10rpx 10rpx;
+    font-size: 35rpx;
+    color: #081a24;
+}
+
+page {
+  background-color: #F8F8F8;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+
+.page-body {
+  padding: 0rpx 0;
+}

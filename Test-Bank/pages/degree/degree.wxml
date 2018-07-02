@@ -1,0 +1,8 @@
+<image class="first-background" src="../../images/firstbackground.png"></image>
+<view class="background1" bindtap="Call_Easy"></view>
+<view class="background2" bindtap="Call_Hard"></view>
+<view class="button1" bindtap="Call_Easy" ><text>简单</text></view>
+<view class="button2" bindtap="Call_Hard" ><text>困难</text></view>
+<image class="Line-1" src="../../images/line.png"></image>
+<image class="happy-easy" src="../../images/easy.png" bindtap="Call_Easy"></image>
+<image class="upset-hard" src="../../images/hard.png" bindtap="Call_Hard"></image>

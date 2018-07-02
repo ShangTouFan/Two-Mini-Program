@@ -1,0 +1,93 @@
+.title-question{
+  position: absolute;  
+  left: 18%;  
+  font-size: 15px;  
+  top:30%;
+  width:60%;
+}
+
+.title-count{
+  position: absolute;  
+  left: 45%;  
+  font-size: 13px;  
+  top: 82%;
+  width:100%;
+}
+
+.buttonA{   
+  width: 60%;  
+  font-size: 18px;  
+  background-color: #FFF;
+  text-align: center;
+  border-radius: 40rpx;
+  border:4rpx solid #e9e45e;
+  line-height: 150%;
+  left:18%;
+  top:45%;
+}  
+
+.buttonB{   
+  width: 60%;  
+  font-size: 18px;  
+  background-color: #FFF;
+  text-align: center;
+  border-radius: 40rpx;
+  border:4rpx solid #e9e45e;
+  line-height: 150%;
+  left:18%;
+  top:55%;
+}  
+
+.buttonC{   
+  width: 60%;  
+  font-size: 18px;  
+  background-color: #FFF;
+  text-align: center;
+  border-radius: 40rpx;
+  border:4rpx solid #e9e45e;
+  line-height: 150%;
+  left:18%;
+  top:65%;
+}  
+
+.buttonD{   
+  width: 60%;  
+  font-size: 18px;  
+  background-color: #FFF;
+  text-align: center;
+  border-radius: 40rpx;
+  border:4rpx solid #e9e45e;
+  line-height: 150%;
+  left:18%;
+  top:75%;
+}  
+
+.count{  
+  height: 80rpx;  
+  line-height: 80rpx;  
+  width: 50%;  
+  font-size: 13px;  
+  text-align:center;  
+}  
+.show{  
+  background-color: #1bc98e;
+  text-align: center;
+  border-radius: 40rpx;
+  border:4rpx solid #FFF;
+  line-height: 250%;
+  width:30%;
+}  
+
+.next{  
+  background-color: #1bc98e;
+  text-align: center;
+  border-radius: 40rpx;
+  border:4rpx solid #FFF;
+  line-height: 250%;
+}  
+
+.list-image{
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/CET4/CET4",
+    "pages/CET6/CET6",
+    "pages/result/result"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "英语能力小测验",
+    "navigationBarTextStyle": "black"
+  }
+}
