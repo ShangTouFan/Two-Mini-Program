@@ -70,7 +70,7 @@ Page({
 
   Call_Base:function( ){
     wx.navigateTo({
-      url: "../degree/degree?flag=1"
+      url: "../degree/degree?flag=1"//页面跳转加传值
     })
   },
   Call_Loop: function () {
