@@ -15,7 +15,7 @@ Page({
         var that = this
         var fg = options.flag
         this.setData({
-          flag:fg
+          flag:fg//接收刚才目录选择时候传的值
         })
   },
 
@@ -74,7 +74,7 @@ Page({
   
   Call_Easy:function(){
     var that = this
-    if(that.data.flag == 1)
+    if(that.data.flag == 1)//通过刚才的传值知道要抽哪个题库
     {
       wx.navigateTo({
         url: '../CBaseEasy/CBaseEasy'
@@ -113,6 +113,21 @@ Page({
     else if (that.data.flag == 8) {
       wx.navigateTo({
         url: '../TreeEasy/TreeEasy'
+      })
+    }
+    else if (that.data.flag == 9) {
+      wx.navigateTo({
+        url: '../LinuxBaseEasy/LinuxBaseEasy'
+      })
+    }
+    else if (that.data.flag == 10) {
+      wx.navigateTo({
+        url: '../LinuxServerEasy/LinuxServerEasy'
+      })
+    }
+    else if (that.data.flag == 11) {
+      wx.navigateTo({
+        url: '../LinuxWebEasy/LinuxWebEasy'
       })
     }
   },
@@ -156,6 +171,21 @@ Page({
     else if (that.data.flag == 8) {
       wx.navigateTo({
         url: '../TreeHard/TreeHard'
+      })
+    }
+    else if (that.data.flag == 9) {
+      wx.navigateTo({
+        url: '../LinuxBaseHard/LinuxBaseHard'
+      })
+    }
+    else if (that.data.flag == 10) {
+      wx.navigateTo({
+        url: '../LinuxServerHard/LinuxServerHard'
+      })
+    }
+    else if (that.data.flag == 11) {
+      wx.navigateTo({
+        url: '../LinuxWebHard/LinuxWebHard'
       })
     }
   }

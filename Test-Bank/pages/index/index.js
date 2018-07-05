@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    show:false
+    show: false
   },
   onShareAppMessage: function () {
     return {
@@ -14,7 +14,7 @@ Page({
     }
   },
   //事件处理函数
-  Call_C: function() {
+  Call_C: function () {
     var that = this
     wx.navigateTo({
       url: '../contentC/contentC'
@@ -32,12 +32,12 @@ Page({
   },
   Call_about: function () {
     this.setData({
-      show:true
+      show: true
     })
   },
-  exit:function(){
+  exit: function () {
     this.setData({
-      show:false
+      show: false
     })
   },
   onLoad: function () {

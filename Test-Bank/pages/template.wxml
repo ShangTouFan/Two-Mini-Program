@@ -1,0 +1,43 @@
+<template name="Quiz">
+<image class="first-background" src="../../images/firstbackground.png"></image>
+
+<view class="title-question"><text>Q：{{questionbody}}</text></view>
+
+<button class="buttonA" bindtap='disp' id='A' data-num="{{Ans}}" data-count="{{count}}" data-bindcount="{{bindcount}}" data-rightcount="{{rightcount}}" data-errorcount="{{errorcount}}" style="background-color:{{backcolorA}};border:{{borA}};color:{{fontcolorA}}"><text>{{A}}</text>
+</button>  
+<button class="buttonB" bindtap='disp' id='B' data-num="{{Ans}}" data-count="{{count}}" data-bindcount="{{bindcount}}" data-rightcount="{{rightcount}}" data-errorcount="{{errorcount}}" style="background-color:{{backcolorB}};border:{{borB}};color:{{fontcolorB}}"><text>{{B}}</text>  
+</button>  
+<button class="buttonC" bindtap='disp' id='C' data-num="{{Ans}}" data-count="{{count}}" data-bindcount="{{bindcount}}" data-rightcount="{{rightcount}}" data-errorcount="{{errorcount}}" style="background-color:{{backcolorC}};border:{{borC}};color:{{fontcolorC}}"><text>{{C}}</text>  
+</button>  
+<button class="buttonD" bindtap='disp' id='D' data-num="{{Ans}}" data-count="{{count}}" data-bindcount="{{bindcount}}" data-rightcount="{{rightcount}}" data-errorcount="{{errorcount}}" style="background-color:{{backcolorD}};border:{{borD}};color:{{fontcolorD}}"><text>{{D}}</text>  
+</button>   
+
+<view class="page-body">
+<image src="../../images/football.png" bindtap="refresh" class="next">
+</image>
+</view>
+
+<view class="page-body">
+<!--image src="../../images/football1.png" bindtap="Call_tips"解析事件 class="tips"!-->
+<image src="../../images/football1.png"  class="tips">
+</image>
+</view>
+
+<view style="position:absolute;width:25%;height:10%;top:85%;left:72%;color:{{showcolor}};font-size:20px;"><text>{{show}}</text>
+</view>  
+
+<view class="page-body">
+<image class="{{cflag===0?'hidec':'openc'}}" src="../../images/correct.png"></image>
+</view>
+
+<view class="page-body">
+<image class="{{eflag===0?'hidee':'opene'}}" src="../../images/error.png"></image>
+</view>
+
+<image class="football-A" src="../../images/A.png"></image>
+<image class="football-B" src="../../images/B.png"></image>
+<image class="football-C" src="../../images/C.png"></image>
+<image class="football-D" src="../../images/D.png"></image>
+
+<view style="position:absolute;top:95%;left:82%;color:#FFF">{{bindcount}}/{{length}}</view>
+</template>

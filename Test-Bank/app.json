@@ -20,7 +20,13 @@
     "pages/SortEasy/SortEasy",
     "pages/SortHard/SortHard",
     "pages/TreeEasy/TreeEasy",
-    "pages/TreeHard/TreeHard"
+    "pages/TreeHard/TreeHard",
+    "pages/LinuxBaseEasy/LinuxBaseEasy",
+    "pages/LinuxBaseHard/LinuxBaseHard",
+    "pages/LinuxServerEasy/LinuxServerEasy",
+    "pages/LinuxServerHard/LinuxServerHard",
+    "pages/LinuxWebEasy/LinuxWebEasy",
+    "pages/LinuxWebHard/LinuxWebHard"
   ],
   "window": {
     "backgroundTextStyle": "light",
